@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <main>
+    <div id="card">
+      <div id="illustration">
+        <img class="background mobile" src="images/bg-pattern-mobile.svg" alt="">
+        <img class="foreground mobile" src="images/illustration-woman-online-mobile.svg" alt="">
+        <div class="desktop" id="bg-image"></div>
+        <div class="desktop" id="illustration"></div>
+        <img class="box desktop" src="images/illustration-box-desktop.svg" alt="">
+      </div>
+      <div id="content">
+        <h1>FAQ</h1>
+
+        <div class="accordion" data-index=1>
+          How many team members can I invite?
+          <span class="arrow">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          </span>
+        </div>
+        <div class="panel">
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</p>
+        </div>
+        <hr>
+
+        <div class="accordion" data-index=2>
+          What is the maximum file upload size?
+          <span class="arrow">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          </span>
+        </div>
+        <div class="panel">
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+        <hr>
+
+        <div class="accordion" data-index=3>
+          How do I reset my password?
+          <span class="arrow">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          </span>
+        </div>
+        <div class="panel">
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+        </div>
+        <hr>
+
+        <div class="accordion" data-index=4>
+          Can I cancel my subscription?
+          <span class="arrow">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          </span>
+        </div>
+        <div class="panel">
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+        <hr>
+
+        <div class="accordion" data-index=5>
+          Do you provide additional support?
+          <span class="arrow">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          </span>
+        </div>
+        <div class="panel">
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+        <hr>
+
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/hattami98">AM Hattami</a>.
+    </div>
+  </main>  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
